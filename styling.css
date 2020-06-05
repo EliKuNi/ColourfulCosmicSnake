@@ -1,0 +1,798 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url('https://media.giphy.com/media/FlodpfQUBSp20/giphy.gif');
+    background-repeat: repeat;
+    position: fixed;
+    }
+
+#c {
+    position: relative;
+    width: 100px;
+    margin: 10px auto;
+    }
+
+.thing:nth-child(1) {
+    position: absolute;
+    width: 4px;
+    height: 3.6px;
+    margin-left: -50px;
+    margin-top: 5px;
+    background-color: turquoise;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.08s;
+    }
+    
+.thing:nth-child(2) {
+    position: absolute;
+    width: 8px;
+    height: 7.2px;
+    margin-left: -50px;
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.16s;
+    }
+    
+.thing:nth-child(3) {
+    position: absolute;
+    width: 12px;
+    height: 10.8px;
+    margin-left: -50px;
+    margin-top: 15px;
+    background-color: purple;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.24s;
+   }
+
+.thing:nth-child(4) {
+    position: absolute;
+    width: 16px;
+    height: 14.4px;
+    margin-left: -50px;
+    margin-top: 20px;
+    background-color: violet;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.32s;
+   }
+
+.thing:nth-child(5) {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    margin-left: -50px;
+    margin-top: 25px;
+    background-color: pink;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.4s;
+   }
+
+.thing:nth-child(6) {
+    position: absolute;
+    width: 24px;
+    height: 21.6px;
+    margin-left: -50px;
+    margin-top: 30px;
+    background-color: red;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.48s;
+   }
+
+.thing:nth-child(7) {
+    position: absolute;
+    width: 28px;
+    height: 25.2px;
+    margin-left: -50px;
+    margin-top: 35px;
+    background-color: orange;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.56s;
+   }
+    
+.thing:nth-child(8) {
+    position: absolute;
+    width: 32px;
+    height: 28.8px;
+    margin-left: -50px;
+    margin-top: 40px;
+    background-color: gold;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.64s;
+    }
+
+.thing:nth-child(9) {
+    position: absolute;
+    width: 36px;
+    height: 32.4px;
+    margin-left: -50px;
+    margin-top: 45px;
+    background-color: yellow;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.72s;
+    }
+    
+.thing:nth-child(10) {
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    margin-left: -50px;
+    margin-top: 50px;
+    background-color: lime;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.8s;
+    }
+    
+.thing:nth-child(11) {
+    position: absolute;
+    width: 44px;
+    height: 39.6px;
+    margin-left: -50px;
+    margin-top: 55px;
+    background-color: green;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.88s;
+    }
+
+.thing:nth-child(12) {
+    position: absolute;
+    width: 48px;
+    height: 43.2px;
+    margin-left: -50px;
+    margin-top: 60px;
+    background-color: turquoise;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -0.96s;
+    }
+    
+.thing:nth-child(13) {
+    position: absolute;
+    width: 52px;
+    height: 46.8px;
+    margin-left: -50px;
+    margin-top: 65px;
+    background-color: blue;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -1.04s;
+    }
+    
+.thing:nth-child(14) {
+    position: absolute;
+    width: 56px;
+    height: 50.4px;
+    margin-left: -50px;
+    margin-top: 70px;
+    background-color: purple;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -1.12s;
+    }
+    
+.thing:nth-child(15) {
+    position: absolute;
+    width: 60px;
+    height: 54px;
+    margin-left: -50px;
+    margin-top: 75px;
+    background-color: violet;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -1.2s;
+    }
+
+.thing:nth-child(16) {
+    position: absolute;
+    width: 64px;
+    height: 57.6px;
+    margin-left: -50px;
+    margin-top: 80px;
+    background-color: pink;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -1.28s;
+    }
+
+.thing:nth-child(17) {
+    position: absolute;
+    width: 68px;
+    height: 61.2px;
+    margin-left: -50px;
+    margin-top: 85px;
+    background-color: red;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -1.36s;
+    }
+    
+.thing:nth-child(18) {
+    position: absolute;
+    width: 72px;
+    height: 64.8px;
+    margin-left: -50px;
+    margin-top: 90px;
+    background-color: orange;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite; animation-delay: -1.44s;
+    }
+   
+.thing:nth-child(19) {
+    position: absolute;
+    width: 76px;
+    height: 68.4px;
+    margin-left: -50px;
+    margin-top: 95px;
+    background-color: gold;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -1.52s;
+    }
+
+.thing:nth-child(20) {
+    position: absolute;
+    width: 80px;
+    height: 72px;
+    margin-left: -50px;
+    margin-top: 100px;
+    background-color: yellow;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -1.6s;
+    }
+    
+.thing:nth-child(21) {
+    position: absolute;
+    width: 84px;
+    height: 75.6px;
+    margin-left: -50px;
+    margin-top: 105px;
+    background-color: lime;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -1.68s;
+    }
+    
+.thing:nth-child(22) {
+    position: absolute;
+    width: 88px;
+    height: 79.2px;
+    margin-left: -50px;
+    margin-top: 110px;
+    background-color: green;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -1.76s;
+    }
+    
+.thing:nth-child(23) {
+     position: absolute;
+     width: 92px;
+     height: 82.8px;
+     margin-left: -50px;
+     margin-top: 115px;
+     background-color: turquoise;
+     border-radius: 100% 100% 50% 50%;
+     border: 1px solid white;
+     animation: go 2s ease-in-out infinite;
+     animation-delay: -1.84s;
+     }
+
+.thing:nth-child(24) {
+     position: absolute;
+     width: 96px;
+     height: 86.4px;
+     margin-left: -50px;
+     margin-top: 120px;
+     background-color: blue;
+     border-radius: 100% 100% 50% 50%;
+     border: 1px solid white;
+     animation: go 2s ease-in-out infinite;
+     animation-delay: -1.92s;
+     }
+     
+.thing:nth-child(25) {
+     position: absolute;
+     width: 100px;
+     height: 90px;
+     margin-left: -50px;
+     margin-top: 125px;
+     background-color: purple;
+     border-radius: 100% 100% 50% 50%;
+     border: 1px solid white;
+     animation: go 2s ease-in-out infinite;
+     animation-delay: -2s;
+     }
+    
+.thing:nth-child(26) {
+     position: absolute;
+     width: 104px;
+     height: 93.6px;
+     margin-left: -50px;
+     margin-top: 130px;
+     background-color: violet;
+     border-radius: 100% 100% 50% 50%;
+     border: 1px solid white;
+     animation: go 2s ease-in-out infinite;
+     animation-delay: -2.08s;
+     }
+     
+.thing:nth-child(27) {
+    position: absolute;
+    width: 108px;
+    height: 97.2px;
+    margin-left: -50px;
+    margin-top: 135px;
+    background-color: pink;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.16s; }
+
+.thing:nth-child(28) {
+    position: absolute;
+    width: 112px;
+    height: 100.8px;
+    margin-left: -50px;
+    margin-top: 140px;
+    background-color: red;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.24s;
+    }
+
+.thing:nth-child(29) {
+    position: absolute;
+    width: 116px;
+    height: 104.4px;
+    margin-left: -50px;
+    margin-top: 145px;
+    background-color: orange;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.32s;
+    }
+
+.thing:nth-child(30) {
+    position: absolute;
+    width: 120px;
+    height: 108px;
+    margin-left: -50px;
+    margin-top: 150px;
+    background-color: gold;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.4s;
+    }
+
+.thing:nth-child(31) {
+    position: absolute;
+    width: 124px;
+    height: 111.6px;
+    margin-left: -50px;
+    margin-top: 155px;
+    background-color: yellow;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.48s;
+    }
+
+.thing:nth-child(32) {
+    position: absolute;
+    width: 128px;
+    height: 115.2px;
+    margin-left: -50px;
+    margin-top: 160px;
+    background-color: lime;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.56s;
+    }
+
+.thing:nth-child(33) {
+    position: absolute;
+    width: 132px;
+    height: 118.8px;
+    margin-left: -50px;
+    margin-top: 165px;
+    background-color: green;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.64s;
+    }
+
+.thing:nth-child(34) {
+    position: absolute;
+    width: 136px;
+    height: 122.4px;
+    margin-left: -50px;
+    margin-top: 170px;
+    background-color: turquoise;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.72s;
+    }
+
+.thing:nth-child(35) {
+    position: absolute;
+    width: 140px;
+    height: 126px;
+    margin-left: -50px;
+    margin-top: 175px;
+    background-color: blue;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.8s;
+    }
+
+.thing:nth-child(36) {
+    position: absolute;
+    width: 144px;
+    height: 129.6px;
+    margin-left: -50px;
+    margin-top: 180px;
+    background-color: purple;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.88s;
+    }
+
+.thing:nth-child(37) {
+    position: absolute;
+    width: 148px;
+    height: 133.2px;
+    margin-left: -50px;
+    margin-top: 185px;
+    background-color: violet;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -2.96s;
+    }
+
+.thing:nth-child(38) {
+    position: absolute;
+    width: 152px;
+    height: 136.8px;
+    margin-left: -50px;
+    margin-top: 190px;
+    background-color: pink;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.04s;
+    }
+
+.thing:nth-child(39) {
+    position: absolute;
+    width: 156px;
+    height: 140.4px;
+    margin-left: -50px;
+    margin-top: 195px;
+    background-color: red;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.12s;
+    }
+
+.thing:nth-child(40) {
+    position: absolute;
+    width: 160px;
+    height: 144px;
+    margin-left: -50px;
+    margin-top: 200px;
+    background-color: orange;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.2s;
+    }
+
+.thing:nth-child(41) {
+    position: absolute;
+    width: 164px;
+    height: 147.6px;
+    margin-left: -50px;
+    margin-top: 205px;
+    background-color: gold;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.28s;
+}
+
+.thing:nth-child(42) {
+    position: absolute;
+    width: 168px;
+    height: 151.2px;
+    margin-left: -50px;
+    margin-top: 210px;
+    background-color: yellow;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.36s; }
+
+.thing:nth-child(43) {
+    position: absolute;
+    width: 172px; height: 154.8px;
+    margin-left: -50px;
+    margin-top: 215px;
+    background-color: lime;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.44s;
+    }
+
+.thing:nth-child(44) {
+    position: absolute;
+    width: 176px;
+    height: 158.4px;
+    margin-left: -50px;
+    margin-top: 220px;
+    background-color: green;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.52s;
+    }
+
+.thing:nth-child(45) {
+    position: absolute;
+    width: 180px;
+    height: 162px;
+    margin-left: -50px;
+    margin-top: 225px;
+    background-color: turquoise;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.6s;
+    }
+
+.thing:nth-child(46) {
+    position: absolute;
+    width: 184px;
+    height: 165.6px;
+    margin-left: -50px;
+    margin-top: 230px;
+    background-color: blue;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.68s;
+    }
+
+.thing:nth-child(47) {
+    position: absolute;
+    width: 188px;
+    height: 169.2px;
+    margin-left: -50px;
+    margin-top: 235px;
+    background-color: purple;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.76s;
+    }
+
+.thing:nth-child(48) {
+    position: absolute;
+    width: 192px;
+    height: 172.8px;
+    margin-left: -50px;
+    margin-top: 240px;
+    background-color: violet;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.84s;
+    }
+
+.thing:nth-child(49) {
+    position: absolute;
+    width: 196px;
+    height: 176.4px;
+    margin-left: -50px;
+    margin-top: 245px;
+    background-color: pink;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -3.92s;
+    }
+.thing:nth-child(50) {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    margin-left: -50px;
+    margin-top: 250px;
+    background-color: red;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.08s;
+    }
+    
+.thing:nth-child(51) {
+    position: absolute;
+    width: 204px;
+    height: 183.6px;
+    margin-left: -50px;
+    margin-top: 255px;
+    background-color: orange;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.16s;
+    }
+    
+.thing:nth-child(52) {
+    position: absolute;
+    width: 208px;
+    height: 187.2px;
+    margin-left: -50px;
+    margin-top: 260px;
+    background-color: gold;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.24s;
+    }
+    
+.thing:nth-child(53) {
+    position: absolute;
+    width: 212px;
+    height: 190.8px;
+    margin-left: -50px;
+    margin-top: 265px;
+    background-color: yellow;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.32s;
+    }
+    
+.thing:nth-child(54) {
+    position: absolute;
+    width: 214px;
+    height: 194.4px;
+    margin-left: -50px;
+    margin-top: 275px;
+    background-color: lime;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.40s;
+    }
+    
+.thing:nth-child(55) {
+    position: absolute;
+    width: 218px;
+    height: 198px;
+    margin-left: -50px;
+    margin-top: 280px;
+    background-color: green;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.48s;
+    }
+
+.thing:nth-child(56) {
+    position: absolute;
+    width: 222px;
+    height: 201.6px;
+    margin-left: -50px;
+    margin-top: 285px;
+    background-color: turquoise;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.56s;
+    }
+    
+.thing:nth-child(57) {
+    position: absolute;
+    width: 226px;
+    height: 205.2px;
+    margin-left: -50px;
+    margin-top: 290px;
+    background-color: blue;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.64s;
+    }
+
+.thing:nth-child(58) {
+    position: absolute;
+    width: 230px;
+    height: 208.8px;
+    margin-left: -50px;
+    margin-top: 295px;
+    background-color: purple;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.72s;
+    }
+    
+.thing:nth-child(59) {
+    position: absolute;
+    width: 234px;
+    height: 212.4px;
+    margin-left: -50px;
+    margin-top: 300px;
+    background-color: violet;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.80s;
+    }    
+    
+.thing:nth-child(60) {
+    position: absolute;
+    width: 238px;
+    height: 216px;
+    margin-left: -50px;
+    margin-top: 305px;
+    background-color: pink;
+    border-radius: 100% 100% 50% 50%;
+    border: 1px solid white;
+    animation: go 2s ease-in-out infinite;
+    animation-delay: -4.88s;
+    }    
+
+@keyframes go { 0%
+{
+   margin-left: -50px;
+}
+
+50% {
+   margin-left: 50px;
+}
+
+100% {
+   margin-left: -50px;
+} }
+
+.changeColor{
+    color: white;
+}
+
+#blink
+{
+    margin-left:40px;
+    margin-top:50px;
+    font-size:20px;
+    font-family: 'Handlee', cursive;
+}
