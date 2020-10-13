@@ -1,2 +1,2 @@
 # ColourfulCosmicSnake
-Beautiful cosmic snake I created. In love with it 💖
+Animation of a beautiful cosmic snake I created. In love with it 💖
